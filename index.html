@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Legal Birthday Di 🎂</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page" id="page1">
+    <button id="startBtn">Start</button>
+  </div>
+
+  <div class="page hidden" id="page2">
+    <p>Enter your DOB to start</p>
+    <input type="text" id="dobInput" placeholder="DD/MM/YYYY" />
+    <button id="enterDOB">Enter</button>
+  </div>
+
+  <div class="page hidden" id="page3">
+    <div id="slideshow"></div>
+    <img src="images/cake.png" alt="cake" id="cake" class="hidden"/>
+    <div id="note" class="hidden">Legal toh ho gayi ho... Par har roz "main badi hoon" bolna ab illegal hai!
+Tere bina na ghar mein drama hota, na hasi majak, na pyaar.
+Happy 18th Birthday meri full-time didi, lifetime naukrani! 💖🎂</div>
+  </div>
+
+  <script src="script.js"></script>
+
+  <audio id="bgMusic" loop>
+    <source src="music/bgmusic.mp3" type="audio/mpeg" />
+  </audio>
+</body>
+</html>

@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #fcefee;
+  text-align: center;
+  color: #333;
+}
+.page {
+  display: none;
+  padding-top: 80px;
+}
+.page#page1,
+.page#page2,
+.page#page3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+button {
+  padding: 12px 25px;
+  font-size: 18px;
+  border: none;
+  background: #ff66b2;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  background: #e653a5;
+}
+input {
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.hidden {
+  display: none;
+}
+#slideshow img {
+  max-width: 300px;
+  max-height: 400px;
+  margin: 10px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+#cake {
+  width: 200px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+#note {
+  font-size: 18px;
+  margin-top: 30px;
+  animation: fadeIn 2s ease-in-out;
+}
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
